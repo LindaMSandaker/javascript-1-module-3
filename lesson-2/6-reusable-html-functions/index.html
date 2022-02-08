@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Reusable HTML functions</title>
-    <script src="js/script.js"></script>
+    <script src="js/handler/toaster-message.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <style>
+        .toaster {
+            display: flex;
+            flex-direction: column;
+            height: 45px;
+            width: 300px;
+            font-family: "Bookman Old Style";
+            border-radius: 3px;
+            border: 1px solid rgba(43, 43, 43, 0.99);
+            padding: 8px;
+            margin: 8px;
+        }
+        .success {
+            background-color: #b3f4c1;
+        }
+        .info {
+            background-color: #b1e6f4;
+        }
+        .warning {
+            background-color: #f9e6c6;
+        }
+        .error {
+            background-color: #fdb6b6;
+        }
+    </style>
 </head>
 <body>
-
+<div class="container">
+    <div class="message-success"></div>
+    <div class="message-info"></div>
+    <div class="message-warning"></div>
+    <div class="message-error"></div>
+</div>
 </body>
 </html>

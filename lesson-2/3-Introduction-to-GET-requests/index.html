@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Introduction to GET request</title>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
+    <style>
+        .my-cats-fact {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .my-cats-fact li {
+            list-style: none;
+            border: 1px solid;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 8px;
+        }
+    </style>
 </head>
 <body>
-
+<div class="container">
+    <h1>Cat facts: 🐈 🐈‍⬛ 🙀 😼 😽 😻 </h1>
+    <ul class="my-cats-fact">
+        <li style="border: none">loading...</li>
+    </ul>
+</div>
 </body>
 </html>
