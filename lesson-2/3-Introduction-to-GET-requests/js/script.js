@@ -27,3 +27,4 @@ fetch(url)
 // const url = "https://catfact.nnja/facts";
 // TypeError: NetworkError when attempting to fetch resource. script.js:13:17
 // Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://catfact.nnja/facts. (Reason: CORS request did not succeed). Status code: (null).
+

@@ -1,0 +1,33 @@
+
+* {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+}
+
+ul.pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+}
+
+ul.pokemon li {
+    height: 204px;
+    width: 204px;
+    border: 1px solid darkblue;
+    border-radius: 8px;
+    background-image: linear-gradient(to right top, #236a2a, #498133, #6e983d, #95af48, #bdc655);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.pokemon li span {
+    background-color: whitesmoke;
+    color: #23276a;
+    padding: 8px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
