@@ -1,0 +1,39 @@
+
+* {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    background: url("../img/pokemon.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+ul.pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+}
+
+ul.pokemon li {
+    height: 120px;
+    width: 120px;
+    border: 1px solid darkblue;
+    border-radius: 50%;
+    background-image: linear-gradient(to right top, rgba(25, 79, 29, 0.66), rgba(73, 129, 51, 0.82), rgba(110, 152, 61, 0.8), rgba(241, 205, 67, 0.91), #bdc655);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.pokemon li span {
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    color: #23276a;
+    padding: 8px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
