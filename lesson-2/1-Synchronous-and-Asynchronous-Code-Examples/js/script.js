@@ -7,8 +7,8 @@
 // Take a look at the GIF 👇 – one thing is happening at a time her
 // https://giphy.com/gifs/ICIS16DkE9qB9HVxtq
 //
-// You'll see that until the first image is
-// loaded completely, the second image doesn't start loading.
+// You'll see that until the first img is
+// loaded completely, the second img doesn't start loading.
 //
 //     Well, JavaScript is by default
 //     Synchronous [single threaded]. Think about it like this – one thread means one hand with which to do stuff.
@@ -20,7 +20,7 @@
 //
 //     Here, imagine that for 10 tasks, you have 10 hands. So, each hand can do each task independently and at the same time.
 //
-//     Take a look at the GIF 👇 – you can see that each image loads at the same time.
+//     Take a look at the GIF 👇 – you can see that each img loads at the same time.
 
 // https://giphy.com/gifs/MMDnmJnE7uhX6KtcKc
 
@@ -28,7 +28,7 @@
 
 
 
-// Synchronous system, three images are in the same lane. One can't overtake the other. The race is finished one by one. If image number 2 stops, the following image stops.
+// Synchronous system, three images are in the same lane. One can't overtake the other. The race is finished one by one. If img number 2 stops, the following img stops.
 
 // Asynchronous system, the three images are in different lanes. They'll finish the race on their own pace. Nobody stops for anybody:
 
